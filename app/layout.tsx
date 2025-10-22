@@ -9,25 +9,25 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 const _playfairDisplay = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"] })
 
-export const metadata: Metadata = {
-  title: "Coffee Appliance Lab - Machine & Bean Reviews",
-  description:
-    "Personal coffee machine and coffee bean reviews. Discover the best equipment and beans for your perfect cup.",
-  generator: "v0.app",
+export const metadata: any = {
+	title: "Coffee Appliance Lab - Machine & Bean Reviews",
+	description:
+		"Personal coffee machine and coffee bean reviews. Discover the best equipment and beans for your perfect cup.",
+	referrer: 'unsafe-url'
 }
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode
+	children: React.ReactNode
 }>) {
-  return (
-    <html lang="en">
-      <body className={`font-sans antialiased`}>
-        <AnimatedLogo />
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body className={`font-sans antialiased`}>
+				<AnimatedLogo />
+				{children}
+				<Analytics />
+			</body>
+		</html>
+	)
 }
