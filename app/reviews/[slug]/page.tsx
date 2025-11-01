@@ -68,7 +68,7 @@ const reviewsData: Record<string, any> = {
 			"https://m.media-amazon.com/images/I/71A3hJvFj7L._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/61rBGd54G-L._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Keurig-K-Express-Coffee-Single-Brewer/dp/B09715G57M",
+		amazonUrl: "https://amzn.to/47ywusW",
 		aboutThisItem: [
 			{ title: "STRONG BREW", description: "Enjoy a richer, more intense coffee flavor with the strong brew option." },
 			{ title: "MULTIPLE CUP SIZES", description: "Choose between 8, 10, or 12 oz cups with a single button press." },
@@ -124,7 +124,7 @@ const reviewsData: Record<string, any> = {
 			"https://m.media-amazon.com/images/I/71PQZj8LwWL._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/61UN248J2zL._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/BLACK-DECKER-Programmable-Coffeemaker-CM1160B/dp/B01GJOMWVA",
+		amazonUrl: "https://amzn.to/47UP8M3",
 		aboutThisItem: [
 			{
 				title: "12-CUP DURALIFE GLASS CARAFE",
@@ -181,7 +181,7 @@ const reviewsData: Record<string, any> = {
 			"https://m.media-amazon.com/images/I/71+n-Ma5o-L._SX679_.jpg",
 			"https://m.media-amazon.com/images/I/71TWRy-qNCL._SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Lavazza-Coffee-Medium-Espresso-2-2-Pound/dp/B000SDKDM4",
+		amazonUrl: "https://amzn.to/4qzRpo5",
 		aboutThisItem: [
 			{
 				title: "SUPER CREMA",
@@ -239,7 +239,7 @@ from the first sip to the last.`,
 			"https://m.media-amazon.com/images/I/71eaWBtLvkL._SX522_.jpg",
 			"https://m.media-amazon.com/images/I/71ZRWGKRFbL._SX522_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Hamilton-Beach-49902-FlexBrew-Compatible/dp/B095HZYNFM",
+		amazonUrl: "https://amzn.to/4nrw8Kv",
 		aboutThisItem: [
 			{
 				title: "3 WAYS TO BREW",
@@ -312,7 +312,7 @@ lover to enjoy their perfect brew, whether it's a quick morning cup or a full po
 			"https://m.media-amazon.com/images/I/71bUya9rrTL._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/61-cPVDjTnL._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/KIDISLE-Setting-Grounds-Removable-Reusable/dp/B0D7YXVHLJ",
+		amazonUrl: "https://amzn.to/43LSvDs",
 		aboutThisItem: [
 			{
 				title: "CUSTOM FLAVOR STRENGTH",
@@ -364,7 +364,7 @@ refreshing iced coffee in the afternoon, it delivers great flavor fast—every t
 			"https://m.media-amazon.com/images/I/61wHwN6fEQL._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/71+XKIzr7GL._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Espresso-Professional-Removable-Cappuccino-Macchiato/dp/B09X3WGJ3R",
+		amazonUrl: "https://amzn.to/4oKpRe6",
 		aboutThisItem: [
 			{ title: "CLASSIC ITALIAN DESIGN", description: "Iconic octagonal shape unchanged since 1933." },
 			{ title: "STOVETOP BREWING", description: "Works on gas, electric, and induction (with adapter) stovetops." },
@@ -418,7 +418,7 @@ For more details, visit the CASABREWS Store for instructional videos.`,
 			"https://m.media-amazon.com/images/I/615aMdgvs9L._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/6162NaV67rL._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Bloom-Nutrition-Powered-Stainless-Handheld/dp/B09XBTPXD1",
+		amazonUrl: "https://amzn.to/4oPKWnz",
 		aboutThisItem: [
 			{
 				title: "HIGH QUALITY FROTHER WAND",
@@ -489,7 +489,7 @@ Whether you’re blending matcha, whipping protein drinks, or enhancing your mor
 			"https://m.media-amazon.com/images/I/714P2D+-gkL._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/71DZ8xXrxrL._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Keurig-Single-MultiStream-Technology-Reservoir/dp/B0D8LXRHQ8",
+		amazonUrl: "https://amzn.to/4ooqTgg",
 		aboutThisItem: [
 			{
 				title: "BREW OVER ICE",
@@ -555,7 +555,7 @@ Whether it’s a quiet morning for one or a lively gathering with friends, the K
 			"https://m.media-amazon.com/images/I/81Ixy09NgzL._AC_SX679_.jpg",
 			"https://m.media-amazon.com/images/I/811Q-ojaVZL._AC_SX679_.jpg",
 		],
-		amazonUrl: "https://www.amazon.com/Ninja-Integrated-Hands-Free-Cappuccinos-ES601/dp/B0D45PK5V4",
+		amazonUrl: "https://amzn.to/4oM3gOl",
 		aboutThisItem: [
 			{
 				title: "3 MACHINES IN 1",
@@ -717,7 +717,7 @@ export default function ReviewDetailPage() {
 						</div>
 
 						<a
-							href={review.amazonUrl + '?tag=coffeeappli04-20'}
+							href={review.amazonUrl}
 							data-auto
 							className="inline-block bg-[#ff9500] hover:bg-[#e68600] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300 mb-8"
 						>
